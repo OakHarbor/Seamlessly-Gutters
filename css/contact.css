@@ -496,6 +496,125 @@ body, html, h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
+    padding-top: 0;
+}
+
+/*-- -------------------------- -->
+<---            FORM            -->
+<--- -------------------------- -*/
+
+#form {
+    background: url("../images/IMG-2252-compressor.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.form-dark {
+    background: #000;
+    opacity: .7;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.formcontainer {
+    max-width:400px;
+    width:100%;
+    margin:0 auto;
+    position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+    background: transparent;
+    padding:80px 25px 80px 25px;
+    margin:50px 0 0 0;
+    position: relative;
+    z-index: 3;
+}
+
+#contact h3 {
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#contact h4 {
+    margin:5px 0 15px;
+    display:block;
+    font-size:13px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6em;
+}
+
+form p{
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+    width:100%;
+    border:1px solid #CCC;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+    -webkit-transition:border-color 0.3s ease-in-out;
+    -moz-transition:border-color 0.3s ease-in-out;
+    transition:border-color 0.3s ease-in-out;
+    border:1px solid #AAA;
+}
+
+#contact textarea {
+    height:100px;
+    max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+    cursor:pointer;
+    width:100%;
+    border:none;
+    background:#db170d;
+    color:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+    font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+    opacity: .6;
+    -webkit-transition:background 0.3s ease-in-out;
+    -moz-transition:background 0.3s ease-in-out;
+    transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+    outline:0;
+    border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
 }
 
 /*-- -------------------------- -->
@@ -591,6 +710,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-top: 80px;
     }
 
     .hours-text {
@@ -608,6 +728,30 @@ body, html, h1, h2, h3, h4, h5, h6 {
         flex-direction: row;
         align-items: center;
         justify-content: center;
+    }
+
+    .hours-text {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #contact-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contact-flex {
+        width: 330px;
+        margin: 80px 0 0 0;
+        padding: 0;
+    }
+
+    .form-container {
+        max-width: 400px;
+        margin: auto;
     }
 
     .footer-item {
@@ -807,6 +951,22 @@ body, html, h1, h2, h3, h4, h5, h6 {
     }
 
     /*-- -------------------------- -->
+    <---            FORM            -->
+    <--- -------------------------- -*/
+
+    #contact {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    #form {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /*-- -------------------------- -->
     <---           FOOTER           -->
     <--- -------------------------- -*/
 
@@ -817,8 +977,9 @@ body, html, h1, h2, h3, h4, h5, h6 {
     }
 
     .footer-item img {
-        margin: 0 50px 0 0;
+        margin: 0 80px 40px 0;
         padding: 0;
+        width: 150px;
     }
 
     .footer-item {
