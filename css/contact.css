@@ -141,6 +141,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
     z-index: 4;
     position: absolute;
     right: 0;
+    top: 25px;
 }
 
 .side-nav {
@@ -247,7 +248,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
 .mobile-logo img {
     width: 200px;
     position: relative;
-    top: 5px;
+    top: 15px;
 }
 
 .desktop-logo {
@@ -377,7 +378,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    margin: 0 20px 0 0;
+    margin: 0 10px 0 0;
 }
 
 .contact-flex {
@@ -414,6 +415,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
     text-align: left;
     font-size: 14px;
     margin: 0;
+    width: 210px
 }
 
 .contact-item {
@@ -422,7 +424,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
     align-items: center;
     justify-content: flex-start;
     margin: 20px 0;
-    width: 280px;
+    width: 310px;
 }
 
 .info {

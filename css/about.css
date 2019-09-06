@@ -141,6 +141,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
     z-index: 4;
     position: absolute;
     right: 0;
+    top: 25px;
 }
 
 .side-nav {
@@ -247,7 +248,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
 .mobile-logo img {
     width: 200px;
     position: relative;
-    top: 5px;
+    top: 15px;
 }
 
 .desktop-logo {
@@ -337,7 +338,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
 #about-header {
     height: 82px;
     width: 100%;
-    background:url("../images/gutter-work-compressor.jpg");
+    background:url("../images/gutter-work-compressor (1).jpg");
     background-position: center center;
     color: #fff;
     display: flex;
@@ -500,12 +501,12 @@ p.text {
     color: #fff;
     font-size: 30px;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
 }
 
 .left p {
     color: #fff;
-    text-align: left;
+    text-align: center;
     margin: 10px 0 0 0;
 }
 
@@ -627,6 +628,22 @@ p.text {
 
     .contact-button {
         width: 250px;
+        margin: 10px auto;
+    }
+
+    .contact-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left p, .left h3 {
+        text-align: center;
+    }
+
+    .left p {
+        margin-bottom: 10px
     }
 
     /*-- -------------------------- -->

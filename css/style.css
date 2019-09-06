@@ -133,9 +133,6 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 5px solid #DB170D;
     position: relative;
     z-index: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .open-slide {
@@ -145,6 +142,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 4;
     position: absolute;
     right: 0;
+    top: 25px;
 }
 
 .side-nav {
@@ -205,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
     /* Added these */
     display: block;
     box-sizing: border-box;  
-} 
+}
 
 .btn-close {
     display: block;
@@ -251,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-logo img {
     width: 200px;
     position: relative;
-    top: 5px;
+    top: 15px;
 }
 
 .desktop-logo {
@@ -788,6 +786,7 @@ ol.carousel-indicators {
 	color: #fff;
 	font-weight: 900;
 	text-align: center;
+    font-size: 33px;
 }
 
 .left p {
