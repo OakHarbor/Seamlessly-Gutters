@@ -341,8 +341,8 @@ body, html, h1, h2, h3, h4, h5, h6 {
     background:url("../images/IMG-3117-compressor.jpg");
     /*background-attachment: fixed;*/
     background-position: center center;
-    
-    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     position: relative;
 }
@@ -907,6 +907,10 @@ ol.carousel-indicators {
     /*-- -------------------------- -->
     <---           HERO             -->
     <--- -------------------------- -*/
+
+    #hero {
+        background-repeat: no-repeat !important;
+    }
 
     .heroText {
         display: flex;
