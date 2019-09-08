@@ -1,3 +1,7 @@
-/html/about.html      /about-seamlessly-gutters   
-/html/portfolio.html  /seamlessly-gutters-gutter-repair-examples
-/html/contact.html    /contact-us
+/ /html/index.html 200
+
+/about-bob-the-dent-guy /html/about.html 200
+
+/portfolio /html/portfolio.html 200
+
+/contact-bob-the-dent-guy /html/contact.html 200
