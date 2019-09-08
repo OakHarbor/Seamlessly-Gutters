@@ -306,12 +306,11 @@ body, html, h1, h2, h3, h4, h5, h6 {
 }
 
 #bottom-menu i {
-    padding-top: px;
+    padding: 20px 70px;
     color: #2F2E2E;
     text-align: center;
     position: relative;
     /* center icon vertically */
-    top: calc(50% - 11px);
 }
 
 .copyright {
@@ -1223,7 +1222,7 @@ ol.carousel-indicators {
     }
 
     .desktop-logo img {
-        margin-top: 20%;
+        margin-top: 13%;
         margin-bottom: auto;
     }
 
