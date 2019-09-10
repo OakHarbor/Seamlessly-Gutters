@@ -909,6 +909,12 @@ form p{
         background-size: cover;
     }
 
+    #contact-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
     #contact-header h1 {
         font-size: 70px;
     }
@@ -922,10 +928,12 @@ form p{
 
     .contact-flex {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         padding-top: 80px;
+        width: auto;
+        margin-left: 40px;
     }
 
     .title h3 {
@@ -933,8 +941,7 @@ form p{
     }
 
     .hours-text{
-        width: 620px;
-        margin: 0;
+        display: none;
     }
 
     .block {
@@ -944,10 +951,11 @@ form p{
     .hours-flex {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-content: flex-start;
+        align-items: center;
         width: 500px;
-
+        margin-right: 40px;
     }
 
     /*-- -------------------------- -->
