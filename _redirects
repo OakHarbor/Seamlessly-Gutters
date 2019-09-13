@@ -1,3 +1,6 @@
+https://seamlesslygutters.netlify.com https://seamlesslygutters 301!
+https://seamlesslygutters.netlify.com/* https://seamlesslygutters/:splat 301!
+
 /html/about                         /about-seamlessly-gutters 301!
 /about-seamlessly-gutters           /html/about.html 200!
 /html/portfolio                     /seamlessly-gutters-gutter-repair-examples 301!
