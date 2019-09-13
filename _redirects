@@ -1,5 +1,6 @@
-/html/about      /about-seamlessly-gutters 301
-
-/html/portfolio  /seamlessly-gutters-gutter-repair-examples 301
-
-/html/contact    /contact-us 301
+/html/about      /about-seamlessly-gutters 301!
+/about           /html/about.html 200!
+/html/portfolio  /seamlessly-gutters-gutter-repair-examples 301!
+/portfolio       /html/portfolio.html 200!
+/html/contact    /contact-us 301!
+/contact         /html/contact/html 200!
