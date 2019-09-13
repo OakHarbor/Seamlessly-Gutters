@@ -1,5 +1,5 @@
-https://seamlesslygutters.netlify.com https://seamlesslygutters 301!
-https://seamlesslygutters.netlify.com/* https://seamlesslygutters/:splat 301!
+https://seamlesslygutters.netlify.com https://seamlesslygutters.com 301!
+https://seamlesslygutters.netlify.com/* https://seamlesslygutters.com/:splat 301!
 
 /html/about                         /about-seamlessly-gutters 301!
 /about-seamlessly-gutters           /html/about.html 200!
