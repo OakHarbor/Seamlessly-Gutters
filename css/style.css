@@ -10,7 +10,7 @@
 p {
     font-size: 17px;
     line-height: 1.6em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif ;
     color: #767676;
 }
 
@@ -158,7 +158,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 0;
     transition: 0.5s;
-    left: 0
+    left: 0;
     margin: 0;
     width: 0;
     z-index: 7;
@@ -385,6 +385,12 @@ button.quote {
 	background: transparent;
 	border: 2px solid #fff;
 	color: #fff;
+}
+
+#call-strip h3 {
+    font-size: 17px;
+    color: #fff;
+    text-align: left !important;
 }
 
 /*-- -------------------------- -->
@@ -896,7 +902,7 @@ ol.carousel-indicators {
 }
 
 /* Tablets */
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (min-width: 500px) and (max-width: 1024px) {
 
     /*-- -------------------------- -->
     <---           HERO             -->
@@ -958,7 +964,7 @@ ol.carousel-indicators {
         z-index: 5;
     }
 
-    .call-strip-content p {
+    .call-strip-content h3 {
         width: 400px;
         height: auto;
         margin: 0;
@@ -1313,7 +1319,7 @@ ol.carousel-indicators {
         width: 100%;
         background:url("../images/gutter-finish-2-compressor.jpg");
         position: relative;
-        background-repeat: none;
+        background-repeat: no-repeat;
         background-size: cover;
     }
 
