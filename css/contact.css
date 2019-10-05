@@ -798,8 +798,6 @@ form p{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        align-items: center;
-        height: 40px;
     }
 
     #nav-topper {
@@ -816,6 +814,8 @@ form p{
         background: #414141;
         width: 100%;
         padding: 0;
+        display: flex;
+        align-items: center;
     }
 
     .topper-content p {
