@@ -68,7 +68,8 @@ body, html, h1, h2, h3, h4, h5, h6 {
     padding: 12px 40px;
     color: #FFFFFF;
     text-decoration: none;
-    animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
     border-radius: 1px;
     white-space: nowrap;
     float: left;
@@ -78,11 +79,21 @@ body, html, h1, h2, h3, h4, h5, h6 {
     background: #000;
     border-color: #fff;
     color: #fff;
+    -webkit-transition: background 0.4s ease 0s;
+    -o-transition: background 0.4s ease 0s;
     transition: background 0.4s ease 0s;
+    -webkit-transition-property: background;
+    -o-transition-property: background;
     transition-property: background;
-    transition-duration: 0.4s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
+    -webkit-transition-duration: 0.4s;
+         -o-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease;
+         -o-transition-timing-function: ease;
+            transition-timing-function: ease;
+    -webkit-transition-delay: 0s;
+         -o-transition-delay: 0s;
+            transition-delay: 0s;
     cursor: pointer;
 }
 
@@ -97,7 +108,8 @@ body, html, h1, h2, h3, h4, h5, h6 {
     padding: 6px 30px;
     color: #FFFFFF;
     text-decoration: none;
-    animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
     border-radius: 5px;
     white-space: nowrap;
     float: left;
@@ -108,11 +120,21 @@ body, html, h1, h2, h3, h4, h5, h6 {
     background: #fff;
     border-color: #fff;
     color: #DB170D;
+    -webkit-transition: background 0.4s ease 0s;
+    -o-transition: background 0.4s ease 0s;
     transition: background 0.4s ease 0s;
+    -webkit-transition-property: background;
+    -o-transition-property: background;
     transition-property: background;
-    transition-duration: 0.4s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
+    -webkit-transition-duration: 0.4s;
+         -o-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease;
+         -o-transition-timing-function: ease;
+            transition-timing-function: ease;
+    -webkit-transition-delay: 0s;
+         -o-transition-delay: 0s;
+            transition-delay: 0s;
     cursor: pointer;
 }
 
@@ -145,6 +167,8 @@ body, html, h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 0;
     background-color: #fff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     right: -1px;
     text-align: right;
@@ -157,6 +181,8 @@ body, html, h1, h2, h3, h4, h5, h6 {
     height: 100%;
     position: absolute;
     top: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     left: 0;
     margin: 0;
@@ -195,7 +221,8 @@ body, html, h1, h2, h3, h4, h5, h6 {
     text-align: right;
     /* Added these */
     display: block;
-    box-sizing: border-box;  
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;  
 }
 
 .btn-close {
@@ -253,6 +280,8 @@ body, html, h1, h2, h3, h4, h5, h6 {
 #side-menu {
     margin: 0;
     width: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
 }
 
@@ -267,10 +296,16 @@ body, html, h1, h2, h3, h4, h5, h6 {
 }
 
 #bottom-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     z-index: 7;
-    flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     width: 100%;
     position: absolute;
 }
@@ -367,7 +402,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
 
 .heroText h2 {
 	color: #fff;
-	font-size: 17px;
+	font-size: 18px;
 	text-align: left;
 	line-height: 1.6em;
 	padding: 9px 0;
@@ -388,7 +423,7 @@ button.quote {
 }
 
 #call-strip h3 {
-    font-size: 17px;
+    font-size: 19px;
     color: #fff;
     text-align: left !important;
 }
@@ -426,9 +461,15 @@ button.quote {
 
 .how-button-div {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: auto;
     margin-bottom: 30px;
 }
@@ -477,9 +518,16 @@ button.card-button{
 
 .carousel {
 	height: 400px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
     position: relative;
 }
 
@@ -508,7 +556,8 @@ button.card-button{
     position: absolute;
     top: 55%;
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
     z-index: 5;
     height: 100%;
 }
@@ -602,10 +651,19 @@ ol.carousel-indicators {
 }
 
 .services-button {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	margin-bottom: 50px;
 }
 
@@ -643,10 +701,19 @@ ol.carousel-indicators {
 }
 
 .svg {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	width: 90px;
 	height: 90px;
 	background: transparent;
@@ -667,9 +734,15 @@ ol.carousel-indicators {
 }
 
 .list-button {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 .bob-button {
@@ -682,9 +755,15 @@ ol.carousel-indicators {
 .about-button-div {
     width: 100%;
     height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 50px;
 }
 
@@ -714,10 +793,19 @@ ol.carousel-indicators {
 }
 
 .gallery-content {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	height: 160px;
 }
 
@@ -740,8 +828,13 @@ ol.carousel-indicators {
 }
 
 .gallery {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	height: auto;
 }
 
@@ -772,10 +865,19 @@ ol.carousel-indicators {
 }
 
 .contact-flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	height: 230px;
     position: relative;
     z-index: 3;
@@ -913,17 +1015,29 @@ ol.carousel-indicators {
     }
 
     .heroText {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         padding: 0;
         height: 450px;
         width: 500px;
     }
 
     .flex-button {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
     }
 
     button.quote {
@@ -955,10 +1069,19 @@ ol.carousel-indicators {
 
     .call-strip-content {
         text-align: left;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         padding-top: 20px;
         position: relative;
         z-index: 5;
@@ -987,9 +1110,16 @@ ol.carousel-indicators {
     }
 
     .card-flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         position: relative;
         z-index: 5;
         height: auto;
@@ -1003,7 +1133,8 @@ ol.carousel-indicators {
 
     .card img {
         border: 2px solid #fff;
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
     }
 
     .card h3 {
@@ -1066,7 +1197,10 @@ ol.carousel-indicators {
 
     #triangle {
         bottom: -2px;
-        clip-path: polygon(50% 100%, 100% 60%, 100% 100%, 
+        -webkit-clip-path: polygon(50% 100%, 100% 60%, 100% 100%, 
+            100% 100%, 100% 100%, 23% 100%, 0 100%, 0 100%, 
+            0 100%, 0 60%);
+                clip-path: polygon(50% 100%, 100% 60%, 100% 100%, 
             100% 100%, 100% 100%, 23% 100%, 0 100%, 0 100%, 
             0 100%, 0 60%);;
     }
@@ -1076,9 +1210,16 @@ ol.carousel-indicators {
     <--- -------------------------- -*/
 
     .list {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 
     .list-item {
@@ -1099,8 +1240,12 @@ ol.carousel-indicators {
 
     .about-button-div {
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         margin-bottom: 50px;
     }
 
@@ -1113,17 +1258,33 @@ ol.carousel-indicators {
     }
 
     .gallery-under {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .gallery {
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         height: auto;
     }
 
@@ -1161,9 +1322,16 @@ ol.carousel-indicators {
     }
 
     .topper-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
     }
 
     #nav-topper {
@@ -1171,8 +1339,12 @@ ol.carousel-indicators {
     }
 
     .phone {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     
     #nav-topper {
@@ -1180,8 +1352,12 @@ ol.carousel-indicators {
         background: #414141;
         width: 100%;
         padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .topper-content p {
@@ -1252,6 +1428,8 @@ ol.carousel-indicators {
     .navbar-links li a {
         text-decoration: none;
         color: #6A6A6A;
+        -webkit-transition: color 0.4s ease 0s;
+        -o-transition: color 0.4s ease 0s;
         transition: color 0.4s ease 0s;
         font-size: 14px;
         font-weight: 700;
@@ -1334,10 +1512,19 @@ ol.carousel-indicators {
 
     .call-strip-content {
         text-align: left;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         padding-top: 20px;
         position: relative;
         z-index: 5;
@@ -1366,9 +1553,16 @@ ol.carousel-indicators {
     }
 
     .card-flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         height: auto;
     }
 
@@ -1380,7 +1574,8 @@ ol.carousel-indicators {
     }
 
     .card img {
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
         border: 2px solid #fff;
     }
 
@@ -1444,7 +1639,10 @@ ol.carousel-indicators {
     #triangle {
         position: absolute;
         bottom: -52px;
-        clip-path: polygon(50% 100%, 100% 60%, 100% 100%, 
+        -webkit-clip-path: polygon(50% 100%, 100% 60%, 100% 100%, 
+            100% 100%, 100% 100%, 23% 100%, 0 100%, 0 100%, 
+            0 100%, 0 60%);
+                clip-path: polygon(50% 100%, 100% 60%, 100% 100%, 
             100% 100%, 100% 100%, 23% 100%, 0 100%, 0 100%, 
             0 100%, 0 60%);;
     }
@@ -1481,11 +1679,18 @@ ol.carousel-indicators {
 
     .list-item {
         width: 450px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         text-align: left;
         margin: 18px auto;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 
     .list-item p {
@@ -1502,10 +1707,18 @@ ol.carousel-indicators {
     }
 
     .about-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-line-pack: center;
+            align-content: center;
         padding-top: 50px;
         padding-bottom: 50px;
         height: auto;
@@ -1513,10 +1726,18 @@ ol.carousel-indicators {
 
     .about-button-div {
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-content: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
         margin-bottom: 50px;
     }
 
@@ -1529,10 +1750,16 @@ ol.carousel-indicators {
     }
 
     .gallery {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        height: auto;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        max-height: 350px;
     }
 
     #gallery img {
@@ -1552,10 +1779,19 @@ ol.carousel-indicators {
     <--- -------------------------- -*/
 
     .contact-flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         height: auto;
         text-align: left;
     }
@@ -1569,10 +1805,19 @@ ol.carousel-indicators {
     #contact {
         height: 170px;
         position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -1589,9 +1834,16 @@ ol.carousel-indicators {
     <--- -------------------------- -*/
 
     .footer-flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 
     .footer-item img {
