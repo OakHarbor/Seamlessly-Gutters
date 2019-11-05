@@ -370,10 +370,11 @@ body, html, h1, h2, h3, h4, h5, h6 {
 <--- -------------------------- -*/
 
 #about-header {
-    height: 82px;
+    height: 200px;
     width: 100%;
-    background:url("../images/gutter-work-compressor (1).jpg");
+    background:url("../images/matt\ garage.jpg");
     background-position: center center;
+    background-size: cover;
     color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -680,7 +681,7 @@ p.text {
     <--- -------------------------- -*/
 
     #about-header {
-        height: 300px;
+        height: 550px;
     }
 
     h1.services-header {
@@ -889,7 +890,7 @@ p.text {
     <--- -------------------------- -*/
 
     #about-header {
-        height: 320px;
+        height: 550px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
