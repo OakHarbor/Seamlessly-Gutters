@@ -1747,6 +1747,7 @@ ol.carousel-indicators {
 
     #gallery {
         height: auto;
+        position: relative;
     }
 
     .gallery {
@@ -1759,7 +1760,6 @@ ol.carousel-indicators {
                 flex-direction: row;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-        max-height: 350px;
     }
 
     #gallery img {
