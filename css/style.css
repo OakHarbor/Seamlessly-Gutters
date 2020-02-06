@@ -365,7 +365,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
 <--- -------------------------- -*/
 
 #hero {
-    height: 490px;
+    min-height: calc(100vh - 106px);
     width: 100%;
     background:url("../images/IMG-3117-compressor.jpg");
     /*background-attachment: fixed;*/
@@ -374,6 +374,16 @@ body, html, h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     color: #fff;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
 }
 
 #dark {
@@ -1030,6 +1040,11 @@ ol.carousel-indicators {
         width: 500px;
     }
 
+    #home-h {
+        font-size: 45px;
+        width: 600px;
+    }
+
     .flex-button {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1462,7 +1477,7 @@ ol.carousel-indicators {
     <--- -------------------------- -*/
 
     #hero {
-        height: 500px;
+        min-height: 500px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;

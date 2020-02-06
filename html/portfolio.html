@@ -14,6 +14,9 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/portfolio.css">
 
+	<!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 	<title>Seamlessly Gutters Project Portfolio</title>
 </head>
 <body>
@@ -92,134 +95,146 @@
 
 <main>
 
-        <section id="s-hero">
-            <div id="portdark"></div>
-            <div class="container s-header">
-                <h1>OUR WORK AROUND TOWN</h1>
-                <div id="s-line"></div>
-                <p id="s-p">See for yourself the quality of work we are so proud of.  We have worked on every type of roof in town and there's not one project we aren't ready to take on.</p>
+	<section id="s-hero">
+		<div id="portdark"></div>
+		<div class="container s-header">
+			<h1>OUR WORK AROUND TOWN</h1>
+			<div id="s-line"></div>
+			<p id="s-p">See for yourself the quality of work we are so proud of.  We have worked on every type of roof in town and there's not one project we aren't ready to take on.</p>
+		</div>
+	</section>
+
+        <!-- ============================================ -->
+    <!--                    GALLERY                   -->
+    <!-- ============================================ -->
+
+    <section id="gallery">
+        <div class="gallery">
+
+            <!-- Cropped Images -->
+            <img id="one"  src="/images/blue-house-before-sq.jpg" alt="" width="300px" height="300px">
+            <img id="two" src="/images/bue-house-after-sq.jpg" alt="" width="300px" height="300px">
+            <img id="three" src="/images/brown-house-before-sq.jpeg" alt="" width="300px" height="300px">
+            <img id="four" src="/images/brown-house-after-sq.jpeg" alt="" width="300px" height="300px">
+            <img id="five" src="/images/gutter-3-compressor.jpg" alt="" width="300px" height="300px">
+            <img id="six" src="/images/gutter-job-compressor.jpg" alt="" width="300px" height="300px">
+            <img id="seven" src="/images/gutter-job-2-compressor.jpg" alt="" width="300px" height="300px">
+            <img id="eight" src="/images/gutter-before-compressor.jpg" alt="" width="300px" height="300px">
+            <img id="nine" src="/images/gutter-finish-2-compressor.jpg" alt="" width="300px" height="300px">
+            <img id="ten" src="/images/gutter-work-compressor (1).jpg" alt="" width="300px" height="300px">
+            <img id="eleven" src="/images/gutter-fix-2-compressor.jpg" alt="" width="300px" height="300px">
+            <img id="twelve"  src="/images/cabin-gutter-square-compressor.jpg" alt="" width="300px" height="300px">
+            <img id="thirteen" src="/images/image-1-crop.jpg" alt="" width="300px" height="300px">
+            <img id="fourteen" src="/images/image-2-crop.jpg" alt="" width="300px" height="300px">
+            <img id="fifteen" src="/images/image-3-crop.jpg" alt="" width="300px" height="300px">
+            <img id="sixteen" src="/images/image-4-crop.jpg" alt="" width="300px" height="300px">
+            <img id="seventeen" src="/images/image-5-crop.jpg" alt="" width="300px" height="300px">
+            <img id="eighteen" src="/images/image-6-crop.jpg" alt="" width="300px" height="300px">
+            <img id="nineteen" src="/images/image-7-crop.jpg" alt="" width="300px" height="300px">
+            <img id="twenty" src="/images/image-8-crop.jpg" alt="" width="300px" height="300px">
+            <img id="twenty-one" src="/images/image-9-crop.jpg" alt="" width="300px" height="300px">
+
+            <!-- Actual Image Sizes -->
+            <div class="modal-one modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/blue-house-before.JPG" alt="" width="300px" height="300px">
             </div>
-        </section>
-
-        <section id="gallery">
-        	<h3>Gutter Repair Gallery</h3>
-            <div class="gallery">
- 
-                    <img class="myImg" id="m-image1" src="../images/blue-house-before-sq.jpg" width="310" height="310" alt="gutter_repair_example">
-
-                    <img class="myImg" id="m-image2" src="../images/bue-house-after-sq.jpg" width="310" height="310" alt="gutter_repair_example">
-                              
-                    <img class="myImg" id="m-image3" src="../images/gutter-3-compressor.jpg" width="310" height="310" alt="gutter_repair_example">
-      
-                    <img class="myImg" id="m-image4" src="../images/gutter-before-compressor.jpg" width="310" height="310" alt="gutter_repair_example">
-            
-                    <img class="myImg" id="m-image5" src="../images/brown-house-before-sq.jpeg" width="310" height="310" alt="gutter_repair_example">
-           
-                    <img class="myImg" id="m-image6" src="../images/brown-house-after-sq.jpeg" width="310" height="310" alt="gutter_repair_example">
-             
-                    <img class="myImg" id="m-image7" src="../images/gutter-fix-2-compressor.jpg" width="310" height="310" alt="gutter_repair_example">
-         
-                    <img class="myImg" id="m-image8" src="../images/gutter-job-2-compressor.jpg" width="310" height="310" alt="gutter_repair_example">
-         
+            <div class="modal-two modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/bue-house-after.JPG" alt="" width="300px" height="300px">
             </div>
-        </section>
-
-        <div id="modals">
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-
-              <!-- The Close Button -->
-              <span class="close">&times;</span>
-
-              <!-- Modal Content (The Image) -->
-              <img class="modal-content" src="url" id="img01" alt="gutter cleaning">
-
+            <div class="modal-three modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/brown-house-before.JPEG" alt="" width="300px" height="300px">
             </div>
-
-            <div id="myModal2" class="modal">
-
-              <!-- The Close Button -->
-              <span class="close">&times;</span>
-
-              <!-- Modal Content (The Image) -->
-              <img class="modal-content" src="url" id="img02" alt="gutter cleaning">
-
+            <div class="modal-four modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/brown-house-after.JPEG" alt="" width="300px" height="300px">
             </div>
-
-            <div id="myModal3" class="modal">
-
-              <!-- The Close Button -->
-              <span class="close">&times;</span>
-
-              <!-- Modal Content (The Image) -->
-              <img class="modal-content" src="url" id="img03" alt="gutter cleaning">
-
+            <div class="modal-five modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/gutter-3-compressor.jpg" alt="" width="300px" height="300px">
             </div>
-
-            <div id="myModal4" class="modal">
-
-              <!-- The Close Button -->
-              <span class="close">&times;</span>
-
-              <!-- Modal Content (The Image) -->
-              <img class="modal-content" src="url" id="img04" alt="gutter cleaning">
-
+            <div class="modal-six modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/gutter-job-compressor.jpg" alt="" width="300px" height="300px">
             </div>
-
-            <div id="myModal5" class="modal">
-
-              <!-- The Close Button -->
-              <span class="close">&times;</span>
-
-              <!-- Modal Content (The Image) -->
-              <img class="modal-content" src="url" id="img05" alt="gutter cleaning">
-
+            <div class="modal-seven modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/gutter-job-2-compressor.jpg" alt="" width="300px" height="300px">
             </div>
-
-            <div id="myModal6" class="modal">
-
-              <!-- The Close Button -->
-              <span class="close">&times;</span>
-
-              <!-- Modal Content (The Image) -->
-              <img class="modal-content" src="url" id="img06" alt="gutter cleaning">
+            <div class="modal-eight modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/gutter-before-compressor.jpg" alt="" width="300px" height="300px">
             </div>
-
-            <div id="myModal7" class="modal">
-
-              <!-- The Close Button -->
-              <span class="close">&times;</span>
-
-              <!-- Modal Content (The Image) -->
-              <img class="modal-content" src="url" id="img07" alt="gutter cleaning">
-
+            <div class="modal-nine modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/gutter-finish-2-compressor.jpg" alt="" width="300px" height="300px">
             </div>
-
-            <div id="myModal8" class="modal">
-
-              <!-- The Close Button -->
-              <span class="close">&times;</span>
-
-              <!-- Modal Content (The Image) -->
-              <img class="modal-content" src="url" id="img08" alt="gutter cleaning">
-
+            <div class="modal-ten modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/gutter-work-compressor (1).jpg" alt="" width="300px" height="300px">
             </div>
-
+            <div class="modal-eleven modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/gutter-fix-2-compressor.jpg" alt="" width="300px" height="300px">
+            </div>
+            <div class="modal-twelve modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/IMG-3117-compressor.jpg" alt="" width="300px" height="300px">
+            </div>
+            <div class="modal-thirteen modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/image-1.jpg" alt="" width="300px" height="300px">
+            </div>
+            <div class="modal-fourteen modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/image-2.jpg" alt="" width="300px" height="300px">
+            </div>
+            <div class="modal-fifteen modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/image-3.jpg" alt="" width="300px" height="300px">
+            </div>
+            <div class="modal-sixteen modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/image-4.jpg" alt="" width="300px" height="300px">
+            </div>
+            <div class="modal-seventeen modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/image-5.jpg" alt="" width="300px" height="300px">
+            </div>
+            <div class="modal-eighteen modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/image-6.jpg" alt="" width="300px" height="300px">
+            </div>
+            <div class="modal-nineteen modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/image-7.jpg" alt="" width="300px" height="300px">
+            </div>
+            <div class="modal-twenty modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/image-8.jpg" alt="" width="300px" height="300px">
+            </div>
+            <div class="modal-twenty-one modal">
+                <i class="far fa-times-circle home-icon"></i>
+                <img class="actual" src="/images/image-9.jpg" alt="" width="300px" height="300px">
+            </div>
         </div>
+    </section>
 
-        <section id="contact">
-			<div class="contact-dark"></div>
-			<div class="contact-container container">
-				<div class="contact-flex">
-					<div class="left">
-						<h3>Contact Us</h3>
-						<p>However big your problem, we have you (and your gutter) covered.</p>
-					</div>
-					<button class="button-solid contact-button animated fadeInRight" onclick="location.href='../html/contact.html'" type="button">
-	         		Give Us A Call</button>
+	<section id="contact">
+		<div class="contact-dark"></div>
+		<div class="contact-container container">
+			<div class="contact-flex">
+				<div class="left">
+					<h3>Contact Us</h3>
+					<p>However big your problem, we have you (and your gutter) covered.</p>
 				</div>
+				<button class="button-solid contact-button animated fadeInRight" onclick="location.href='../html/contact.html'" type="button">
+				Give Us A Call</button>
 			</div>
-		</section>
+		</div>
+	</section>
 </main>
 
 	<!-- ============================================ -->
@@ -283,9 +298,7 @@
 		</section>
 	</footer>
 
-	<script src="../js/nav.js"></script>
-	<script src="../js/modal.js"></script>
+	<script src="/js/nav.js"></script>
 
-	
 </body>
 </html>
