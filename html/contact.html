@@ -195,7 +195,7 @@
 	<section id="form">
 		<div class="form-dark"></div>
 		<div class="form-container">  
-			<form id="contact" name="Contact Form" method="post" data-netlify="true">
+			<form id="contact" name="Contact Form" method="post" data-netlify-recaptcha="true" data-netlify="true">
 			<h3>DROP US A LINE</h3>
 			<h4>Let us know how we're doing or if you have any questions.</h4>
 			<p>
@@ -210,6 +210,7 @@
 			<p>
 				<textarea name="message" placeholder="Type your Message Here...." tabindex="5" required></textarea>
 			</p>
+			<div data-netlify-recaptcha="true"></div>
 			<p>
 				<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
 			</p>
