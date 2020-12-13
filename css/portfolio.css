@@ -389,8 +389,10 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background:url("../images/gutter-3-compressor.jpg");
+    background:url("../images/image-15.jpg");
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #portdark {
@@ -496,7 +498,19 @@ h1, h2, h3, h4, h5, h6 {
 .moadl-eighteen,
 .modal-nineteen,
 .modal-twenty,
-.modal-twenty-one {
+.modal-twenty-one,
+.modal-twenty-2,
+.modal-twenty-3,
+.modal-twenty-4,
+.modal-twenty-5,
+.modal-twenty-6,
+.modal-twenty-7,
+.modal-twenty-8,
+.modal-twenty-9,
+.modal-thirty,
+.modal-thirty-2,
+.modal-thirty-3,
+.modal-thirty-4 {
     visibility: hidden;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
@@ -525,7 +539,20 @@ h1, h2, h3, h4, h5, h6 {
 .modal-eighteen.clicked,
 .modal-nineteen.clicked,
 .modal-twenty.clicked,
-.modal-twenty-one.clicked {
+.modal-twenty-one.clicked,
+.modal-twenty-2.clicked,
+.modal-twenty-3.clicked,
+.modal-twenty-4.clicked,
+.modal-twenty-5.clicked,
+.modal-twenty-6.clicked,
+.modal-twenty-7.clicked,
+.modal-twenty-8.clicked,
+.modal-twenty-9.clicked,
+.modal-thirty.clicked,
+.modal-thirty-1.clicked,
+.modal-thirty-2.clicked,
+.modal-thirty-3.clicked,
+.modal-thirty-4.clicked  {
     visibility: visible;
     margin: auto;
     z-index: 20000;
@@ -534,6 +561,43 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: all .3s ease;
     transition: all .3s ease;
     position: fixed;
+}
+
+.modal-one.clicked img,
+.modal-two.clicked img,
+.modal-three.clicked img,
+.modal-four.clicked img,
+.modal-five.clicked img,
+.modal-six.clicked img,
+.modal-seven.clicked img,
+.modal-eight.clicked img,
+.modal-nine.clicked img,
+.modal-ten.clicked img,
+.modal-eleven.clicked img,
+.modal-twelve.clicked img,
+.modal-thirteen.clicked img,
+.modal-fourteen.clicked img,
+.modal-fifteen.clicked img,
+.modal-sixteen.clicked img,
+.modal-seventeen.clicked img,
+.modal-eighteen.clicked img,
+.modal-nineteen.clicked img,
+.modal-twenty.clicked img,
+.modal-twenty-one.clicked img,
+.modal-twenty-2.clicked img,
+.modal-twenty-3.clicked img,
+.modal-twenty-4.clicked img,
+.modal-twenty-5.clicked img,
+.modal-twenty-6.clicked img,
+.modal-twenty-7.clicked img,
+.modal-twenty-8.clicked img,
+.modal-twenty-9.clicked img,
+.modal-thirty.clicked img,
+.modal-thirty-1.clicked img,
+.modal-thirty-2.clicked img,
+.modal-thirty-3.clicked img,
+.modal-thirty-4.clicked img  {
+    max-width: 800px;
 }
 
 /* Clicked Images */
